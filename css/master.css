@@ -19,8 +19,8 @@ h1, h2, h3, h4, p {
 /*##################################################################################*/
 
 .index-bg-1 {
-  background-color: #0084ff;  /* Blue */
-  color: #ffffff;
+  background-image: url("../media/artwork_media/Miles.png");
+  background-size: 500px auto;
 }
 
 .index-bg-2 {
@@ -28,7 +28,7 @@ h1, h2, h3, h4, p {
 }
 
 .about_me-bg-1, .resume-container {
-  background-color: #0F9D58; /* green */
+  background-color: #9a104b; /* indego */
   color: #ffffff;
 }
 
@@ -72,7 +72,7 @@ h1, h2, h3, h4, p {
 
 .ex {
   align: center;
-  background-color: #0084ff;
+  background-color: #000000;
   color: #ffffff;
   font-size: 1.5em;
   margin: 4px;
@@ -131,13 +131,14 @@ h1, h2, h3, h4, p {
 #project_images {
   margin-left: auto;
   margin-right: auto;
+  color: white;
 }
 
 .thumbnail {
       padding: 0 0 0 0;
       border: none;
       border-radius: 0;
-      background-color: #d2d2d2;
+      background-color: #4b4646;
 }
 
 .thumbnail img {
