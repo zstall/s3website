@@ -161,31 +161,10 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.pcbuildscard h3, .pcbuildscard p {
-  padding-top: 20px;
-}
-
-.pc-main-img {
-  display: block;
-  max-width: 100%;
-  width: 1015px;
-  height: auto;
-  padding: 10px;
-  margin: auto;
-}
-
-.img-pc {
-  display: block;
-  margin: 5px auto;
-}
-
-.pcbuilds-container p, .pcbuilds-container li {
-  font-size: 1.5em;
-}
 
 /* LightBox CSS for PC_Builds */
 .row > .column {
-  padding: 0 8px;
+  padding: 0 1px;
 }
 
 .row:after {
@@ -371,26 +350,65 @@ img.hover-shadow {
   color: white;
   height: 550px;
   padding: 100px 0 0 0;
-}
-
-.header_img_pcbuilds h1, .header_img_pcbuilds h5 {
   text-align: center;
 }
 
 .header_img_pcbuilds h1 {
   padding-top: 100px;
-  font-size: 7em;
+  font-size: 3em;
 }
 
-.pc-intro-text {
-  font-size: 1.5em;
-  padding: 20px 0;
-  text-align: center;
+#about_pc {
+  padding-top: 100px;
+  padding-bottom: 35px;
+}
+
+.pcbuildcard {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .pc-tiles img {
   width:100%;
 }
+
+.sly, .sly-pc-tiles {
+  background-image: url("../media/pc_media/punk-rock.webp");
+  background-size: 500px auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.pcbuild-info, .pc-build-title {
+  background-color: #FFF;
+  margin: 50px;
+}
+
+.pcbuildscard h3, .pcbuildscard p {
+  padding-top: 10px;
+  /* background-color: #FFF; */
+}
+
+.pc-main-img {
+  display: block;
+  max-width: 100%;
+  width: 1015px;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+}
+
+.img-pc {
+  display: block;
+  margin: 5px auto;
+}
+
+.pc-builds-background{
+  background-image: url('../media/pc_media/D.A.R.E-Logo.png');
+  background-size: 30px auto;
+}
+
+
 /*##################################################################################*/
 /* END PC Builds *//* END PC Builds *//* END PC Builds *//* END PC Builds */
 /*##################################################################################*/
