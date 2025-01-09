@@ -19,8 +19,8 @@ h1, h2, h3, h4, p {
 /*##################################################################################*/
 
 .index-bg-1 {
-  background-image: url("../media/artwork_media/Miles.png");
-  background-size: 500px auto;
+  background-color: #0084ff;  /* Blue */
+  color: #ffffff;
 }
 
 .index-bg-2 {
@@ -28,7 +28,7 @@ h1, h2, h3, h4, p {
 }
 
 .about_me-bg-1, .resume-container {
-  background-color: #9a104b; /* indego */
+  background-color: #0F9D58; /* green */
   color: #ffffff;
 }
 
@@ -72,7 +72,7 @@ h1, h2, h3, h4, p {
 
 .ex {
   align: center;
-  background-color: #000000;
+  background-color: #0084ff;
   color: #ffffff;
   font-size: 1.5em;
   margin: 4px;
@@ -131,14 +131,13 @@ h1, h2, h3, h4, p {
 #project_images {
   margin-left: auto;
   margin-right: auto;
-  color: white;
 }
 
 .thumbnail {
       padding: 0 0 0 0;
       border: none;
       border-radius: 0;
-      background-color: #4b4646;
+      background-color: #d2d2d2;
 }
 
 .thumbnail img {
@@ -161,10 +160,31 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.pcbuildscard h3, .pcbuildscard p {
+  padding-top: 20px;
+}
+
+.pc-main-img {
+  display: block;
+  max-width: 100%;
+  width: 1015px;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+}
+
+.img-pc {
+  display: block;
+  margin: 5px auto;
+}
+
+.pcbuilds-container p, .pcbuilds-container li {
+  font-size: 1.5em;
+}
 
 /* LightBox CSS for PC_Builds */
 .row > .column {
-  padding: 0 1px;
+  padding: 0 8px;
 }
 
 .row:after {
@@ -350,65 +370,26 @@ img.hover-shadow {
   color: white;
   height: 550px;
   padding: 100px 0 0 0;
+}
+
+.header_img_pcbuilds h1, .header_img_pcbuilds h5 {
   text-align: center;
 }
 
 .header_img_pcbuilds h1 {
   padding-top: 100px;
-  font-size: 3em;
+  font-size: 7em;
 }
 
-#about_pc {
-  padding-top: 100px;
-  padding-bottom: 35px;
-}
-
-.pcbuildcard {
-  padding-top: 25px;
-  padding-bottom: 25px;
+.pc-intro-text {
+  font-size: 1.5em;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .pc-tiles img {
   width:100%;
 }
-
-.sly, .sly-pc-tiles {
-  background-image: url("../media/pc_media/punk-rock.webp");
-  background-size: 500px auto;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.pcbuild-info, .pc-build-title {
-  background-color: #FFF;
-  margin: 50px;
-}
-
-.pcbuildscard h3, .pcbuildscard p {
-  padding-top: 10px;
-  /* background-color: #FFF; */
-}
-
-.pc-main-img {
-  display: block;
-  max-width: 100%;
-  width: 1015px;
-  height: auto;
-  padding: 10px;
-  margin: auto;
-}
-
-.img-pc {
-  display: block;
-  margin: 5px auto;
-}
-
-.pc-builds-background{
-  background-image: url('../media/pc_media/D.A.R.E-Logo.png');
-  background-size: 30px auto;
-}
-
-
 /*##################################################################################*/
 /* END PC Builds *//* END PC Builds *//* END PC Builds *//* END PC Builds */
 /*##################################################################################*/
@@ -650,6 +631,51 @@ img.hover-shadow {
 .fa-google:hover {
     background-color: #e25714;
 }
+
+/* toggle switch css */
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.toggle input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #333;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #FFF;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #060;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
 /*############################################################################################*/
 /* ----- End Footer ----- *//* ----- End Footer ----- *//* ----- End Footer ----- */
 /*############################################################################################*/

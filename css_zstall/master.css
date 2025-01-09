@@ -1,0 +1,698 @@
+/* ----- Imports ----- */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+/* Fonts */
+h1, h2, h3, h4, p {
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* A Class to add a bottom margin to any container */
+.margin {
+  margin-bottom: 45px;
+}
+
+
+/*##################################################################################*/
+/* Backgrounds *//* Backgrounds *//* Backgrounds *//* Backgrounds *//* Backgrounds */
+/*##################################################################################*/
+
+.index-bg-1 {
+  background-image: url("../media_zstall/artwork_media/Miles.png");
+  background-size: 500px auto;
+}
+
+.index-bg-2 {
+  background-color: #f6f6f6;
+}
+
+.about_me-bg-1, .resume-container {
+  background-color: #9a104b; /* indego */
+  color: #ffffff;
+}
+
+/*##################################################################################*/
+/* End Backgrounds *//* End Backgrounds *//* End Backgrounds *//* End Backgrounds */
+/*##################################################################################*/
+
+/*##################################################################################*/
+/* Header Images *//* Header Images *//* Header Images *//* Header Images *//* Header Images */
+/*##################################################################################*/
+.index-image, .about_me-image {
+  padding-top: 115px;
+  padding-bottom: 35px;
+}
+/*##################################################################################*/
+/* End Header Images *//* End Header Images *//* End Header Images *//* End Header Images */
+/*##################################################################################*/
+
+
+
+/*##################################################################################*/
+/* Experience *//* Experience *//* Experience *//* Experience *//* Experience */
+/*##################################################################################*/
+
+#exp {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.code_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  padding-top: 65px;
+}
+
+#exp_grid {
+  margin-left: 15px;
+}
+
+.ex {
+  align: center;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.5em;
+  margin: 4px;
+  opacity: 1.0;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 5px 5px 2px grey;
+}
+
+/*##################################################################################*/
+/* End Experience *//* End Experience *//* End Experience *//* End Experience */
+/*##################################################################################*/
+
+/*##################################################################################*/
+/* Aboout Me Index *//* Aboout Me Index *//* Aboout Me Index *//* Aboout Me Index */
+/*##################################################################################*/
+#about_me {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#about_me_grid {
+  margin-left: 15px;
+}
+
+.about_me_img_div {
+  margin-right: 20px;
+}
+
+.about_me_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+
+/*##################################################################################*/
+/* End Aboout Me Index *//* End Aboout Me Index *//* End Aboout Me Index */
+/*##################################################################################*/
+
+/*##################################################################################*/
+/* Projects *//* Projects *//* Projects *//* Projects *//* Projects *//* Projects */
+/*##################################################################################*/
+
+#projects {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#projects h4 {
+  padding-bottom: 25px;
+}
+
+#project_images {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.thumbnail {
+      padding: 0 0 0 0;
+      border: none;
+      border-radius: 0;
+      background-color: #4b4646;
+}
+
+.thumbnail img {
+    margin-bottom: 10px;
+    max-height: 400px;
+    height: 100%;
+    width: 100%;
+}
+
+.top_thumbnail {
+  margin-bottom: 25px;
+}
+
+/* shadow on hover effect */
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* LightBox CSS for PC_Builds */
+.row > .column {
+  padding: 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  flex: 50%;
+  max-width: 50%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/*##################################################################################*/
+/* End Projects *//* End Projects *//* End Projects *//* End Projects *//* End Projects */
+/*##################################################################################*/
+
+/*##################################################################################*/
+/* About_me Text *//* About_me Text *//* About_me Text *//* About_me Text *//* About_me Text */
+/*##################################################################################*/
+.about_me-text{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.about_me-text h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+}
+
+.about_me-text p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25em;
+}
+/*##################################################################################*/
+/* End About_me Text *//* End About_me Text *//* End About_me Text */
+/*##################################################################################*/
+/*##################################################################################*/
+/*About Me Resume*/
+/*##################################################################################*/
+.resume-container {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: 10px;
+}
+/*##################################################################################*/
+/* End About Me Resume*/
+/*##################################################################################*/
+/*##################################################################################*/
+/* About Me Tiles*/
+/*##################################################################################*/
+.about-tiles-container {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.about_me-tile-img {
+  width: 80%;
+}
+/*##################################################################################*/
+/* End About Me Tiles*/
+/*##################################################################################*/
+/*##################################################################################*/
+/* leela_ig header video *//* leela_ig header video *//* leela_ig header video */
+/*##################################################################################*/
+.leela-header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.leela-header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.leela-header .leela-container {
+  position: relative;
+  z-index: 2;
+}
+
+.leela-header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+.w3-main,#main{transition:margin-left .4s}
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+.w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
+.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
+.w3-greyscale,.w3-grayscale{filter:grayscale(75%)}.w3-greyscale-min,.w3-grayscale-min{filter:grayscale(50%)}
+.w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
+.w3-left-align{text-align:left!important}.w3-right-align{text-align:right!important}.w3-justify{text-align:justify!important}.w3-center{text-align:center!important}
+.w3-padding-32{padding-top:32px!important;padding-bottom:32px!important}.w3-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.w3-bar-block .w3-dropdown-hover,.w3-bar-block .w3-dropdown-click{width:100%}
+.w3-bar-block .w3-dropdown-hover .w3-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content{min-width:100%}
+.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
+.w3-bar{width:100%;overflow:hidden}.w3-center .w3-bar{display:inline-block;width:auto}
+.w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click{position:static;float:left}
+.w3-bar .w3-button{white-space:normal}
+.w3-bar-block .w3-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.w3-bar-block.w3-center .w3-bar-item{text-align:center}.w3-block{display:block;width:100%}
+.w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.w3-bar-block .w3-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.w3-bar-block.w3-center .w3-bar-item{text-align:center}.w3-block{display:block;width:100%}
+.w3-hide-small{display:none!important}.w3-mobile{display:block;width:100%!important}.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{text-align:center}
+
+/*##################################################################################*/
+/* END leela_ig header video *//* END leela_ig header video *//* END leela_ig header video */
+/*##################################################################################*/
+/*##################################################################################*/
+/* PC Builds *//* PC Builds *//* PC Builds *//* PC Builds *//* PC Builds *//* PC Builds */
+/*##################################################################################*/
+.header_img_pcbuilds {
+  background: url("../media_zstall/pc_media/pc-builds-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 550px;
+  padding: 100px 0 0 0;
+  text-align: center;
+}
+
+.header_img_pcbuilds h1 {
+  padding-top: 100px;
+  font-size: 3em;
+}
+
+#about_pc {
+  padding-top: 100px;
+  padding-bottom: 35px;
+}
+
+.pcbuildcard {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.pc-tiles img {
+  width:100%;
+}
+
+.sly, .sly-pc-tiles {
+  background-image: url("../media_zstall/pc_media/punk-rock.webp");
+  background-size: 500px auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.pcbuild-info, .pc-build-title {
+  background-color: #FFF;
+  margin: 50px;
+}
+
+.pcbuildscard h3, .pcbuildscard p {
+  padding-top: 10px;
+  /* background-color: #FFF; */
+}
+
+.pc-main-img {
+  display: block;
+  max-width: 100%;
+  width: 1015px;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+}
+
+.img-pc {
+  display: block;
+  margin: 5px auto;
+}
+
+.pc-builds-background{
+  background-image: url('../media_zstall/pc_media/D.A.R.E-Logo.png');
+  background-size: 20px auto;
+}
+
+
+/*##################################################################################*/
+/* END PC Builds *//* END PC Builds *//* END PC Builds *//* END PC Builds */
+/*##################################################################################*/
+/*##################################################################################*/
+/* slide animation *//* slide animation *//* slide animation *//* slide animation */
+/*##################################################################################*/
+.slideanim {visibility:hidden;}
+.slide {
+  /* The name of the animation */
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  /* The duration of the animation */
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  /* Make the element visible */
+  visibility: visible;
+}
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+/*##################################################################################*/
+/* End slide animation *//* End slide animation *//* End slide animation *//* End slide animation */
+/*##################################################################################*/
+/*##################################################################################*/
+/* Start BBB */
+/*##################################################################################*/
+.bbb-header-img {
+  background: url("/media/bbb_media/solera-beer-kitchen.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 550px;
+  padding: 100px 0 0 0;
+}
+.bbb-header-img h1, .bbb-header-img h5 {
+  text-align: center;
+  color: #0084ff;
+}
+
+.bbb-header-img h1 {
+  padding-top: 100px;
+  font-size: 7em;
+}
+
+.bbb-header-img h5 {
+  font-size: 2em;
+}
+
+.bbb-tweets {
+  border-radius: 5px;
+  padding: 25px;
+  max-width: 750px;
+  margin: auto;
+}
+/*##################################################################################*/
+/* End BBB */
+/*##################################################################################*/
+
+/* CV */
+.cv-third {
+  float:left;
+  width:100%;
+}
+
+.shadow {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.display-container {
+  position: relative;
+  margin: 0;
+}
+
+.display-container img {
+  object-fit: fill;
+  display: block;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.bottom-left {
+  position: ;
+  bottom: 20px;
+  left: 10px;
+}
+
+.cv-text-container::after, .cv-text-container::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bottom-left {
+  color: white;
+}
+
+/*############################################################################################*/
+/* ----- Footer ----- *//* ----- Footer ----- *//* ----- Footer ----- *//* ----- Footer ----- */
+/*############################################################################################*/
+
+.footer-social-icons {
+	background-color: #111111;
+	width: 100%;
+}
+
+
+.social-icon {
+	color: #2d2d2d;
+}
+
+.social-icons {
+  margin: 0;
+  margin-left: -30px;
+  padding-top: 20px;
+}
+
+.foot {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: #2f2f2f;
+  color: #fff;
+}
+
+.footer-social-icons h3, .footer-social-icons p {
+	color: #eee;
+	text-align: center;
+  font-size: .8em;
+  margin-bottom: 0px;
+}
+
+#email {
+  color: #008080;
+  text-decoration: none;
+}
+
+.social-icons li {
+
+	display: inline;
+	margin: 5px;
+}
+
+
+.fa-facebook {
+
+    padding: 10px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #d2d2d2;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-twitter {
+    padding: 10px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #d2d2d2;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-git {
+    padding: 10px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #d2d2d2;
+}
+.fa-git:hover {
+    background-color: #333;
+}
+
+.fa-instagram {
+    padding: 10px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #d2d2d2;
+}
+.fa-instagram:hover {
+    background-color: #fb3958;
+}
+
+.fa-linkedin {
+    padding: 10px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #d2d2d2;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+.fa-google {
+    padding: 10px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #d2d2d2;
+}
+.fa-google:hover {
+    background-color: #e25714;
+}
+/* toggle switch css */
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+}
+
+.toggle input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #333;
+  transition: 0.4s;
+  border-radius: 17px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: #FFF;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #008080;
+}
+
+input:checked + .slider:before {
+  transform: translateX(13px);
+}
+
+/*############################################################################################*/
+/* ----- End Footer ----- *//* ----- End Footer ----- *//* ----- End Footer ----- */
+/*############################################################################################*/
