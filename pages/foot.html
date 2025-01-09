@@ -3,6 +3,12 @@
   <p>Website Created By <a id="email" href="https://zstall.com">Zachary Stall</a></p>
   <p>With Template Credit To <a id="email" href="w3schools.com">w3schools.com</a></p>
   <p>To email me click here:<a id="email" href="mailto: zstall4@gmail.com"> zstall4@gmail.com</a></p>
+  <div id="zstall_div" style="display: none;">
+    <p><a id="email" href="index_zstall.html">zstall mode</a></p>
+  </div>
+
+
+  
   <div class="social-icons">
     <ul>
       <li><a href="https://www.facebook.com/zstall" target="_blank" class="social-icon"><i class="fa fa-facebook"></i></a></li>
@@ -12,5 +18,22 @@
       <li><a href="mailto: zstall4@gmail.com" class="social-icon"><i class="fa fa-google"></i></a></li>
     </ul>
   </div>
+
+  <br>
+  <label class="toggle">
+    <input type="checkbox" id="btnToggle" name="btnToggle" onchange="zstall()"/>
+    <span class="slider"></span>
+  </label>
+
+  <script>
+    function zstall() {
+      var x = document.getElementById("zstall_div");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
 
 </footer>
